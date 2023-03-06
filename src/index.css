@@ -1,0 +1,237 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #CDDEEE;
+}
+
+.topnav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ABC7E3;
+  overflow: hidden;
+  padding: 10px;
+  z-index: 1;
+}
+
+.topnav a {
+  float: right;
+  color: whitesmoke;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 26px;
+  margin-right: 10px;
+  transition: transform 0.3s ease-out;
+  text-shadow: 2px 2px 4px black;
+}
+
+.topnav a:hover {
+  transform: translateY(-10px)
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: #366BA1;
+  text-shadow: 2px 2px 4px white;
+  font-size: 40px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 1px;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 50px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+div.card {
+  position: relative;
+  margin: 10px;
+  max-width: 550px;
+  height: 1350px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  float: left;
+}
+
+.button1 {
+  background-color: #366BA1;
+  color: whitesmoke;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.button2 {
+  background-color: #366BA1;
+  color: whitesmoke;
+  border: none;
+  padding: 15px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.button1:hover,
+.button2:hover {
+  border: 1px solid;
+  background-color: white;
+  color: #366BA1;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+.form,
+.form p {
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+  background-color: #ABC7E3;
+  padding: 50px;
+}
+
+.weather h1,
+.weather h2 {
+  color: white;
+  text-shadow: 2px 2px 4px #000003;
+}
+
+.weather section {
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.weather main  {
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin: 10px;
+}
+
+#bg-video {
+  position: absolute;
+  background-color: white;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+}
+
+#text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.meal {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #ABC7E3;
+  padding: 100px;
+}
+
+#meals {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 30px;
+  position: relative;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+#meals img {
+  border-radius: 10px;
+  border: 2px solid #366BA1;
+}
+
+#meals ol,
+#meals li {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 10px;
+}
+
+#meals li {
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
